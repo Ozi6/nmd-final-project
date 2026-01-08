@@ -1,0 +1,46 @@
+body
+{
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+}
+
+.text-super-earth
+{
+    color: #FFE800;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bg-super-earth
+{
+    background-color: #FFE800;  /*helldiver yellow and black*/
+    color: #000;
+}
+
+footer
+{
+    background-color: #000000;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.btn-enlist
+{
+    background-color: #FFE800;
+    color: #000;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 30px;
+}
+
+.btn-enlist:hover
+{
+    background-color: #FFF;
+    color: #000;
+}
