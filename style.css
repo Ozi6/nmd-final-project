@@ -18,6 +18,25 @@ body
     color: #000;
 }
 
+.navbar
+{
+    background-color: #000000;
+    border-bottom: 3px solid #FFE800;
+}
+
+.navbar-brand, .nav-link
+{
+    color: #FFE800 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover
+{
+    color: #FFF !important;
+}
+
 footer
 {
     background-color: #000000;
