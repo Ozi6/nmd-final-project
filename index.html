@@ -27,15 +27,55 @@
     </nav>
 
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/hero.jpg" class="d-block w-100" alt="Spread Democracy" style="height: 500px; object-fit: cover;">
-                <div class="carousel-caption d-none d-md-block bg-dark opacity-75">
-                    <h2 class="text-super-earth">SPREAD MANAGED DEMOCRACY</h2>
-                    <p>Freedom never sleeps.</p>
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/hero.jpg" class="d-block w-100" alt="Spread Democracy" style="height: 600px; object-fit: cover; filter: brightness(0.7);">
+                <div class="carousel-caption d-none d-md-block p-4 mb-5" style="background: rgba(0,0,0,0.6); border-left: 5px solid #FFE800;">
+                    <h2 class="text-super-earth fw-bold">SPREAD MANAGED DEMOCRACY</h2>
+                    <p class="fs-5">Freedom never sleeps. Enlist in the Helldivers today.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/bughero.jpg" class="d-block w-100" alt="Fight the Bugs" style="height: 600px; object-fit: cover; filter: brightness(0.7);">
+                <div class="carousel-caption d-none d-md-block p-4 mb-5" style="background: rgba(0,0,0,0.6); border-left: 5px solid #FFE800;">
+                    <h2 class="text-super-earth fw-bold">CRUSH THE TERMINID THREAT</h2>
+                    <p class="fs-5">Protect our borders from the organic scourge.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/automatonhero.png" class="d-block w-100" alt="Fight the Bots" style="height: 600px; object-fit: cover; filter: brightness(0.7);">
+                <div class="carousel-caption d-none d-md-block p-4 mb-5" style="background: rgba(0,0,0,0.6); border-left: 5px solid #FFE800;">
+                    <h2 class="text-super-earth fw-bold">SILENCE THE AUTOMATONS</h2>
+                    <p class="fs-5">Cold steel is no match for warm-blooded Liberty.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/illuminatehero.jpg" class="d-block w-100" alt="The Illuminate" style="height: 600px; object-fit: cover; filter: brightness(0.6) sepia(0.2) hue-rotate(180deg);">
+                <div class="carousel-caption d-none d-md-block p-4 mb-5" style="background: rgba(0,0,0,0.6); border-left: 5px solid #00f2ff;">
+                    <h2 class="fw-bold" style="color: #00f2ff;">OUTSMART THE ILLUMINATE</h2>
+                    <p class="fs-5">High-tech weaponry is no replacement for a Helldiver's resolve.</p>
                 </div>
             </div>
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
     <div class="container mt-5">
@@ -45,12 +85,11 @@
                 <p class="lead">For Liberty. For Prosperity. For Super Earth.</p>
             </div>
         </div>
-        
         <div class="row">
             <div class="col-md-4 mb-3">
                 <div class="p-4 border border-warning text-center">
                     <h3>PROTECT FAMILY</h3>
-                    <p>The Terminids want to take your freedom. Stop them.</p>
+                    <p>The Undemocratic Monsters want to take your freedom. Stop them.</p>
                     <img src="images/family.jpg" class="card-img mt-3" alt="Protect Family">
                 </div>
             </div>
@@ -69,7 +108,6 @@
                 </div>
             </div>
         </div>
-
         <div class="text-center mt-5">
             <a href="enlist.html" class="btn btn-enlist btn-lg">JOIN THE FIGHT</a>
         </div>
